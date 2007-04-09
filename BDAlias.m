@@ -344,4 +344,18 @@ static CFStringRef FSRefToPathCopy(const FSRef *inRef)
     return [[[BDAlias alloc] initWithFSRef:ref relativeToFSRef:relRef] autorelease];
 }
 
+- (BOOL) isEqual:(BDAlias*)otherParam
+{
+	// Two aliases are identical if they resolve to the same full path
+	NSString* path1 = [self fullPath];
+	NSString* path2 = [otherParam fullPath];
+	
+	return ([path1 isEqualTo:path2] == YES);
+}
+
+- (unsigned) hash
+{
+	return [[self fullPath] hash];
+}
+
 @end

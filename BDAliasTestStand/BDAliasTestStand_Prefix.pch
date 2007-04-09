@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BDAliasTestStand' target in the 'BDAliasTestStand' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
