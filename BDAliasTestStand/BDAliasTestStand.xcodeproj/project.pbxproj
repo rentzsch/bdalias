@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		798C10860F9BCCE10072C5A3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798C10850F9BCCE10072C5A3 /* Carbon.framework */; };
 		79D895EE0BCABA3500350C16 /* BDAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D895ED0BCABA3500350C16 /* BDAlias.m */; };
 		8DD76F9A0486AA7600D96B5E /* BDAliasTestStand.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* BDAliasTestStand.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
@@ -16,6 +17,7 @@
 		08FB7796FE84155DC02AAC07 /* BDAliasTestStand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAliasTestStand.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* BDAliasTestStand_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAliasTestStand_Prefix.pch; sourceTree = "<group>"; };
+		798C10850F9BCCE10072C5A3 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		79D895EC0BCABA3500350C16 /* BDAlias.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BDAlias.h; path = ../BDAlias.h; sourceTree = "<group>"; };
 		79D895ED0BCABA3500350C16 /* BDAlias.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = BDAlias.m; path = ../BDAlias.m; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* BDAliasTestStand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BDAliasTestStand; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				798C10860F9BCCE10072C5A3 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				798C10850F9BCCE10072C5A3 /* Carbon.framework */,
 				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
 			);
 			name = "External Frameworks and Libraries";
@@ -96,9 +100,11 @@
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "BDAliasTestStand" */;
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 08FB7794FE84155DC02AAC07 /* BDAliasTestStand */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8DD76F960486AA7600D96B5E /* BDAliasTestStand */,
 			);
