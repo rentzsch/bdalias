@@ -1,6 +1,7 @@
 /*******************************************************************************
     BDAlias.h
-        Copyright (c) 2001-2009 bDistributed.com, Inc.
+        Copyright (c) 2001-2002 bDistributed.com, Inc.
+        Copyright (c) 2002-2009 BDAlias developers
         Some rights reserved: <http://opensource.org/licenses/mit-license.php>
 
     ***************************************************************************/
